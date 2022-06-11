@@ -1,0 +1,77 @@
+* {
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;   
+    text-align: center;
+    font-family: sans-serif;
+   }
+
+#container{
+    margin-top: 90px;
+    width: 90%;
+    max-width: 500px;
+    margin-inline: auto;
+}
+
+img{
+    max-width: 500px;
+}
+
+h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+    color: lightsteelblue;
+}
+
+p{
+    margin-bottom: 40px;
+    opacity: 0.7;
+    color: dimgray;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 7px;
+    border: none;
+    margin-bottom: 20px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;     
+   }
+
+   button{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 7px;
+    border: none;
+    background-color: midnightblue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: filter 0.4s;
+    cursor: pointer;
+
+   }
+/*Passar o mouse em cima do botão*/
+button:hover{
+    filter: brightness(1.5);
+}
+
+#resposta{
+    margin-top: 30px;
+    transition: opacity 1s;
+}
+
+#resposta div {
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.9;
+    margin-bottom: 10px;
+}
